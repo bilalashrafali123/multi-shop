@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+  
+ .background {
+    background-color: rgb(243, 242, 242);
+}
+
+  .upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+  
+    .header-links {
+      display: flex;
+      gap: 1rem;
+  
+      a {
+        color: rgb(165, 164, 164);
+        text-decoration: none;
+        font-weight: 500;
+      }
+    }
+  
+    .alerts {
+      display: flex;
+      gap: 1rem;
+  
+      span {
+        text-transform: uppercase;
+        color: rgb(165, 164, 164);
+      }
+    }
+  }
+  
