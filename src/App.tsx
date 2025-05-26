@@ -1,14 +1,16 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.scss"
-import Header from "./components/Header";
-import UpperHeader from "./components/UpperHeader"
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <>
-      <UpperHeader />
-      <Header />
+     <Routes>
+     <Route path="/" element={<Home />} />
+     </Routes>
     </>
   );
 };
 
 export default App;
+ 
