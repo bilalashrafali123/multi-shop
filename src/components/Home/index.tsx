@@ -1,4 +1,5 @@
 import Carousel from "../Carousel"
+import Categories from "../Categories"
 
 import Header from "../Header"
 import Navbar from "../Navbar"
@@ -9,14 +10,14 @@ import "./index.scss"
 
 const Home = () => {
   return (
-    <>
+  <>
     <UpperHeader />
     <Header />
     <Navbar />
     <Carousel />
     <RatingCards />
-    
-    </>
+    <Categories />
+  </>
   )
 }
 
