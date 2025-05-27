@@ -1,0 +1,12 @@
+.featured-text {
+margin-top: 80px;
+color: #3D464D;
+text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .featured-text {
+        font-size: 24px;
+        text-align: center;
+    }
+}
