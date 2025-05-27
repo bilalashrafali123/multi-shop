@@ -17,6 +17,10 @@ const NavCategories = () => {
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
           <Link to="/shopdetail">ShopDetail</Link>
+          <Link to="/login">Login</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/cart">Cart</Link>
+          <Link to="/checkout">Checkout</Link>
         </div>
       <NavIcons />
       <label htmlFor="nav-toggle" className="hamburger-icon">
