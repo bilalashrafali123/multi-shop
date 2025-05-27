@@ -38,6 +38,7 @@
           align-items: center;
           gap: 8px;
           margin-bottom: 10px;
+          flex-wrap: wrap;
         }
       }
   
@@ -49,12 +50,16 @@
   
     &__newsletter {
       display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
   
       input {
-        flex: 1;
+        flex: 1 1 200px;
         padding: 10px;
         border: none;
         outline: none;
+        border-radius: 4px;
       }
   
       button {
@@ -63,11 +68,14 @@
         padding: 10px 16px;
         font-weight: bold;
         cursor: pointer;
+        border-radius: 4px;
+        white-space: nowrap;
       }
     }
   
     &__socials {
       display: flex;
+      flex-wrap: wrap;
       gap: 10px;
       margin-top: 10px;
   
@@ -76,6 +84,8 @@
         padding: 10px;
         color: black;
         cursor: pointer;
+        font-size: 18px;
+        border-radius: 50%;
       }
     }
   
@@ -100,15 +110,121 @@
       p {
         margin: 0;
         line-height: 1.6;
+        flex: 1 1 100%;
+        text-align: center;
       }
   
       .footer-icons {
         display: flex;
         gap: 10px;
+        justify-content: center;
+        flex: 1 1 100%;
   
         i {
-          font-size: 24px;
+          font-size: 22px;
           color: #fdd835;
+        }
+      }
+    }
+  
+   
+    @media (max-width: 992px) {
+      &__container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 32px;
+      }
+  
+      &__column {
+        flex: 1 1 45%;
+
+        h5 {
+            text-align: center;
+            margin-top: 20px;
+        }
+          }
+  
+      &__newsletter {
+        input,
+        button {
+          flex: 1 1 100%;
+        }
+      }
+  
+      &__bottom {
+        p {
+          text-align: center;
+        }
+      }
+    }
+  
+
+    @media (max-width: 768px) {
+      &__column {
+        flex: 1 1 100%;
+      }
+  
+      &__newsletter {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+  
+        input,
+        button {
+          width: 100%;
+        }
+      }
+  
+      &__socials {
+        justify-content: center;
+      }
+  
+      &__bottom {
+        flex-direction: column;
+        gap: 12px;
+  
+        .footer-icons {
+          flex-wrap: wrap;
+          gap: 8px;
+  
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  
+   
+    @media (max-width: 480px) {
+      padding: 32px 0;
+  
+      &__column {
+        min-width: 100%;
+        padding-bottom: 24px;
+      }
+  
+      &__container {
+        gap: 16px;
+      }
+  
+      &__bottom {
+        font-size: 13px;
+  
+        .footer-icons i {
+          font-size: 18px;
+        }
+      }
+  
+      &__newsletter {
+        gap: 6px;
+  
+        input {
+          font-size: 14px;
+        }
+  
+        button {
+          font-size: 14px;
+          padding: 8px 12px;
         }
       }
     }
