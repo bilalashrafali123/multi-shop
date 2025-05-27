@@ -5,7 +5,7 @@ const RecentProducts = () => {
   return (
     <>
       <div className="container">
-        <FeaturedProductText title="Recent Products" />
+      <FeaturedProductText title="Recent Products" />
       </div>
       <FeaturedProducts />
       <FeaturedProducts />
