@@ -8,6 +8,7 @@ import RatingCards from "../RatingCards"
 import RecentProducts from "../RecentProducts"
 import SpecialOffer from "../SpecialOffer"
 import UpperHeader from "../UpperHeader"
+import Vender from "../Vender"
 import "./index.scss"
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
     <FeaturedProducts />
     <SpecialOffer />
     <RecentProducts />
+    <Vender />
 </>
   )
 }
