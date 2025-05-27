@@ -2,6 +2,7 @@ import Carousel from "../Carousel"
 import Categories from "../Categories"
 import FeaturedProducts from "../FeaturedProducts"
 import FeaturedProductText from "../FeaturedProductsText"
+import Footer from "../Footer"
 import Header from "../Header"
 import Navbar from "../Navbar"
 import RatingCards from "../RatingCards"
@@ -28,6 +29,7 @@ const Home = () => {
     <SpecialOffer />
     <RecentProducts />
     <Vender />
+    <Footer />
 </>
   )
 }

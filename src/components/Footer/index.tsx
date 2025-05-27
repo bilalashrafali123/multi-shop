@@ -16,7 +16,6 @@ const Footer = () => {
             <li><FaPhoneAlt /> +012 345 67890</li>
           </ul>
         </div>
-
         <div className="footer__column">
           <h4>QUICK SHOP</h4>
           <ul>
@@ -28,7 +27,6 @@ const Footer = () => {
             <li>› Contact Us</li>
           </ul>
         </div>
-
         <div className="footer__column">
           <h4>MY ACCOUNT</h4>
           <ul>
@@ -40,7 +38,6 @@ const Footer = () => {
             <li>› Contact Us</li>
           </ul>
         </div>
-
         <div className="footer__column">
           <h4>NEWSLETTER</h4>
           <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
@@ -50,10 +47,9 @@ const Footer = () => {
           </div>
           <h5>FOLLOW US</h5>
           <div className="footer__socials">
-            <FaTwitter />
-            <FaFacebookF />
-            <FaLinkedinIn />
-            <FaInstagram />
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-facebook"></i>   
+          <i className="fa-brands fa-instagram"></i>         
           </div>
         </div>
       </div>
