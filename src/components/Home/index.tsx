@@ -1,3 +1,4 @@
+import Carousel from "../Carousel"
 import Header from "../Header"
 import Navbar from "../Navbar"
 import UpperHeader from "../UpperHeader"
@@ -10,6 +11,7 @@ const Home = () => {
     <UpperHeader />
     <Header />
     <Navbar />
+    <Carousel />
     </>
   )
 }

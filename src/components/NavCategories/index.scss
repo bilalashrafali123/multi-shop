@@ -1,0 +1,136 @@
+.nav-background {
+    background-color: #3d464d;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  
+  .categories {
+    background-color: rgb(233, 159, 23);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  
+    .left-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .caret-arrow {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+  
+      &:hover {
+        color: #e99f17;
+      }
+    }
+  }
+  
+  .nav-icon-container {
+    display: flex;
+    gap: 15px;
+  
+    i {
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+  
+      &:hover {
+        color: #e99f17;
+      }
+    }
+  }
+  
+  .nav-icons-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+ 
+  .nav-toggle {
+    display: none;
+  }
+  
+  .hamburger-icon {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  
+  @media (max-width: 1100px) {
+    .nav-links,
+    .nav-icon-container {
+      display: none;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      margin-right: 20px;
+    }
+    
+    .categories {
+        margin-left: 20px;
+    }
+    
+    .nav-toggle:checked ~ .nav-links {
+      display: flex;
+      position: absolute;
+      top: 100%; 
+      right: 0;
+      background-color: #3d464d;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      z-index: 999;
+  
+      a {
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        white-space: nowrap;
+  
+        &:hover {
+          color: #e99f17;
+        }
+      }
+    }
+  }
+  

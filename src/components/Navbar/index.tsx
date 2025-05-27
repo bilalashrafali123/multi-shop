@@ -1,16 +1,14 @@
 import NavCategories from "../NavCategories"
-import NavIcons from "../NavIcons"
-import NavLinks from "../NavLinks"
+// import NavIcons from "../NavIcons"
 import "./index.scss"
 
 const Navbar = () => {
   return (
     <>
     <NavCategories />
-    <NavLinks />
-    <NavIcons />
+    {/* <NavIcons /> */}
     </>
   )
 }
 
-export default Navbar
+export default Navbar;
