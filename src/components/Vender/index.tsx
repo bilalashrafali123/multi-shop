@@ -15,4 +15,4 @@ const Vender = () => {
   )
 }
 
-export default Vender
+export default Vender;
