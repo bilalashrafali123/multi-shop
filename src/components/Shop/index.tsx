@@ -1,3 +1,4 @@
+import Banner from "../Banner"
 import Header from "../Header"
 import Navbar from "../Navbar"
 import UpperHeader from "../UpperHeader"
@@ -9,6 +10,7 @@ const Shop = () => {
     <UpperHeader />
     <Header />
     <Navbar />
+    <Banner title="Shop" />
     </>
   )
 }
