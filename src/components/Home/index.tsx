@@ -28,9 +28,7 @@ const Home = () => {
     <div className="container">
     <FeaturedProducts />
     <FeaturedProducts />
-    <FeaturedProducts />
-    <FeaturedProducts />
-     </div>
+   </div>
     </div>
    <SpecialOffer />
     <RecentProducts />
