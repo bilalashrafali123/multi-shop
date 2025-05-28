@@ -3,7 +3,6 @@ import Footer from "../Footer";
 import Header from "../Header"
 import Navbar from "../Navbar"
 import UpperHeader from "../UpperHeader"
-
 import './index.scss';
 
 const Cart = () => {
@@ -13,7 +12,6 @@ const Cart = () => {
       <Header />
       <Navbar />
       <Banner title="cart" />
-
       <div className="container cart-page">
         <div className="cart-wrapper">
           <table className="cart-table">
@@ -99,13 +97,11 @@ const Cart = () => {
               </tr>
             </tbody>
           </table>
-
           <div className="cart-summary">
             <div className="coupon">
               <input type="text" placeholder="Coupon Code" />
               <button>Apply Coupon</button>
             </div>
-
             <div className="summary-box">
               <h3>Cart Summary</h3>
               <div className="line">
