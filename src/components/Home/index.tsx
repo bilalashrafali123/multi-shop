@@ -24,9 +24,15 @@ const Home = () => {
     <div className="container">
     <FeaturedProductText title="Featured Products" />
     </div>
+    <div className="products-grid">
+    <div className="container">
     <FeaturedProducts />
     <FeaturedProducts />
-    <SpecialOffer />
+    <FeaturedProducts />
+    <FeaturedProducts />
+     </div>
+    </div>
+   <SpecialOffer />
     <RecentProducts />
     <Vender />
     <Footer />
