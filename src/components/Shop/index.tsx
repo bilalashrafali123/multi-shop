@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import UpperHeader from "../UpperHeader";
 import FeaturedProducts from "../FeaturedProducts";
 import "./index.scss";
+import Footer from "../Footer";
 
 const Shop = () => {
   return (
@@ -64,6 +65,7 @@ const Shop = () => {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   );
 };
