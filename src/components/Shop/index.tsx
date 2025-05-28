@@ -28,7 +28,6 @@ const Shop = () => {
                   <li><input type="checkbox" /><div className="label-wrap"><span>$400 - $500</span><span className="count">1000</span></div></li>
                 </ul>
               </div>
-
               <div className="filter-block">
                 <h4>FILTER BY COLOR</h4>
                 <ul>
@@ -40,7 +39,6 @@ const Shop = () => {
                   <li><input type="checkbox" /><div className="label-wrap"><span>Green</span><span className="count">1000</span></div></li>
                 </ul>
               </div>
-
               <div className="filter-block">
                 <h4>FILTER BY SIZE</h4>
                 <ul>
@@ -53,7 +51,6 @@ const Shop = () => {
                 </ul>
               </div>
             </div>
-
             <div className="shop-content">
               <div className="shop-toolbar">
                 <button>Sorting</button>
@@ -63,6 +60,13 @@ const Shop = () => {
                 <FeaturedProducts />
                 <FeaturedProducts />
                 <FeaturedProducts />
+              </div>
+              <div className="pagination">
+                <span className="previous">Previous</span>
+                <span className="one">1</span>
+                <span className="two">2</span>
+                <span className="three">3</span>
+                <span className="next">Next</span>
               </div>
             </div>
           </div>
