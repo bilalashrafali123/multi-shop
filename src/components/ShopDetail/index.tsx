@@ -89,7 +89,7 @@ const ShopDetail = () => {
                   <i className="fa fa-facebook"></i>
                   <i className="fa fa-twitter"></i>
                   <i className="fa fa-linkedin"></i>
-                  <i class="fa-brands fa-pinterest"></i>
+                  <i className="fa-brands fa-pinterest"></i>
                 </div>
               </div>
             </div>
