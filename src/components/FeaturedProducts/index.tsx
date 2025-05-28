@@ -6,7 +6,7 @@ const FeaturedProducts = () => {
     <div className="products-grid">
         <div className="product-card">
           <img src="/src/product-1.jpg" alt="Product" className="product-image" />
-          <h4 className="product-name">Product Name Goes Here</h4>
+          <h4 className="product-name">Camera</h4>
           <div className="product-price">
             <span className="new-price">$123.00</span>
             <span className="old-price">$123.00</span>
@@ -18,7 +18,7 @@ const FeaturedProducts = () => {
         </div>
         <div className="product-card">
           <img src="/src/product-2.jpg" alt="Product" className="product-image" />
-          <h4 className="product-name">Product Name Goes Here</h4>
+          <h4 className="product-name">T-shirt</h4>
           <div className="product-price">
             <span className="new-price">$123.00</span>
             <span className="old-price">$123.00</span>
@@ -30,7 +30,7 @@ const FeaturedProducts = () => {
         </div>
          <div className="product-card">
           <img src="/src/product-3.jpg" alt="Product" className="product-image" />
-          <h4 className="product-name">Product Name Goes Here</h4>
+          <h4 className="product-name">Lamp</h4>
           <div className="product-price">
             <span className="new-price">$123.00</span>
             <span className="old-price">$123.00</span>
@@ -42,7 +42,7 @@ const FeaturedProducts = () => {
         </div>
         <div className="product-card">
           <img src="/src/product-4.jpg" alt="Product" className="product-image" />
-          <h4 className="product-name">Product Name Goes Here</h4>
+          <h4 className="product-name">Shoes</h4>
           <div className="product-price">
             <span className="new-price">$123.00</span>
             <span className="old-price">$123.00</span>
