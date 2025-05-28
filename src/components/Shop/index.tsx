@@ -20,7 +20,7 @@ const Shop = () => {
               <h4>FILTER BY PRICE</h4>
         <div className="filter-block">
               <ul>
-                <li><input type="checkbox" /> All Price</li>
+                <li><input type="checkbox" /> All Price</li> 
                 <li><input type="checkbox" /> $0 - $100</li>
                 <li><input type="checkbox" /> $100 - $200</li>
                 <li><input type="checkbox" /> $200 - $300</li>
