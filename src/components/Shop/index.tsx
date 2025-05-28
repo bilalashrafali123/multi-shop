@@ -17,8 +17,8 @@ const Shop = () => {
       <div className="container">
         <div className="shop-inner">
           <div className="shop-sidebar">
-        <div className="filter-block">
               <h4>FILTER BY PRICE</h4>
+        <div className="filter-block">
               <ul>
                 <li><input type="checkbox" /> All Price</li>
                 <li><input type="checkbox" /> $0 - $100</li>
@@ -28,8 +28,8 @@ const Shop = () => {
                 <li><input type="checkbox" /> $400 - $500</li>
               </ul>
             </div>
-            <div className="filter-block">
               <h4>FILTER BY COLOR</h4>
+            <div className="filter-block">
               <ul>
                 <li><input type="checkbox" /> All Color</li>
                 <li><input type="checkbox" /> Black</li>
@@ -39,8 +39,8 @@ const Shop = () => {
                 <li><input type="checkbox" /> Green</li>
               </ul>
             </div>
-            <div className="filter-block">
               <h4>FILTER BY SIZE</h4>
+            <div className="filter-block">
               <ul>
                 <li><input type="checkbox" /> All Size</li>
                 <li><input type="checkbox" /> XS</li>
