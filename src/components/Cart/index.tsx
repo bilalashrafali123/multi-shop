@@ -11,7 +11,7 @@ const Cart = () => {
       <UpperHeader />
       <Header />
       <Navbar />
-      <Banner title="Cart" />
+      <Banner title="Cart"/>
       <div className="container cart-page">
         <div className="cart-wrapper">
           <table className="cart-table">
@@ -112,7 +112,7 @@ const Cart = () => {
               <input type="text" placeholder="Coupon Code" />
               <button>Apply Coupon</button>
             </div>
-            <div className="summary-heading">Cart Summary</div>
+          <div className="summary-heading">CART SUMMARY</div>
             <div className="summary-box">
               <div className="line">
                 <span>Subtotal</span>
@@ -122,6 +122,9 @@ const Cart = () => {
                 <span>Shipping</span>
                 <span>$10</span>
               </div>
+                <div className="line-break">
+                  <hr />
+                </div>
               <div className="line total">
                 <span>Total</span>
                 <span>$160</span>
