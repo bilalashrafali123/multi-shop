@@ -13,8 +13,8 @@ const ShopDetail = () => {
       <UpperHeader />
       <Header />
       <Navbar />
-      <Banner title="ShopDetail" />
         <div className="container">
+      <Banner title="ShopDetail" />
       <div className="product-details-wrapper">
           <div className="product-details-inner">
             <div className="product-image">
