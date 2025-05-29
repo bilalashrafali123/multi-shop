@@ -69,8 +69,7 @@ const Checkout = () => {
               <div className="line total"><strong>Total</strong><span>$160</span></div>
             </div>
           </div>
-
-          <h3>PAYMENT</h3>
+        <h3>PAYMENT</h3>
           <div className="payment">
             <div className="payment-methods">
               <label><input type="radio" name="payment" /> Paypal</label>
