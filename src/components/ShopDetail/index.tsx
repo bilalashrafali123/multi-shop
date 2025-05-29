@@ -119,9 +119,9 @@ const ShopDetail = () => {
             </div>
           </div>
           <FeaturedProductText title="you may also like" />
-          <FeaturedProducts />
         </div>
       </div>
+      <FeaturedProducts />
       <Footer />
     </>
   );
