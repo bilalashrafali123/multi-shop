@@ -1,9 +1,9 @@
-import Banner from "../Banner"
+import Banner from "../Banner";
 import Footer from "../Footer";
-import Header from "../Header"
-import Navbar from "../Navbar"
-import UpperHeader from "../UpperHeader"
-import './index.scss';
+import Header from "../Header";
+import Navbar from "../Navbar";
+import UpperHeader from "../UpperHeader";
+import "./index.scss";
 
 const Cart = () => {
   return (
@@ -37,7 +37,9 @@ const Cart = () => {
                   <button>+</button>
                 </td>
                 <td>$150</td>
-                <td><button className="remove">✖</button></td>
+                <td>
+                  <button className="remove">✖</button>
+                </td>
               </tr>
               <tr>
                 <td className="product">
@@ -51,7 +53,9 @@ const Cart = () => {
                   <button>+</button>
                 </td>
                 <td>$150</td>
-                <td><button className="remove">✖</button></td>
+                <td>
+                  <button className="remove">✖</button>
+                </td>
               </tr>
               <tr>
                 <td className="product">
@@ -65,7 +69,9 @@ const Cart = () => {
                   <button>+</button>
                 </td>
                 <td>$150</td>
-                <td><button className="remove">✖</button></td>
+                <td>
+                  <button className="remove">✖</button>
+                </td>
               </tr>
               <tr>
                 <td className="product">
@@ -79,7 +85,9 @@ const Cart = () => {
                   <button>+</button>
                 </td>
                 <td>$150</td>
-                <td><button className="remove">✖</button></td>
+                <td>
+                  <button className="remove">✖</button>
+                </td>
               </tr>
               <tr>
                 <td className="product">
@@ -93,7 +101,9 @@ const Cart = () => {
                   <button>+</button>
                 </td>
                 <td>$150</td>
-                <td><button className="remove">✖</button></td>
+                <td>
+                  <button className="remove">✖</button>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -102,14 +112,14 @@ const Cart = () => {
               <input type="text" placeholder="Coupon Code" />
               <button>Apply Coupon</button>
             </div>
+            <div className="summary-heading">Cart Summary</div>
             <div className="summary-box">
-              <h3>Cart Summary</h3>
               <div className="line">
                 <span>Subtotal</span>
                 <span>$150</span>
               </div>
               <div className="line">
-                <span>Shipping</span> 
+                <span>Shipping</span>
                 <span>$10</span>
               </div>
               <div className="line total">

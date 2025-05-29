@@ -10,13 +10,13 @@
   
   .cart-page {
     padding: 0;
-    margin-top: 40px;
   }
   
   .cart-wrapper {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-top: 40px;
     align-items: flex-start;
 }
 
@@ -229,6 +229,25 @@
     }
   
     .cart-summary .summary-box h3 {
+      font-size: 16px;
+    }
+  }
+  
+  .summary-heading {
+    text-align:left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .summary-heading {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .summary-heading {
       font-size: 16px;
     }
   }
