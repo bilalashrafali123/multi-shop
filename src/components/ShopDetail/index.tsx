@@ -95,6 +95,7 @@ const ShopDetail = () => {
             </div>
           </div>
           <div className="product-tabs">
+            <div className="container">
             <div className="tabs">
               <button className="active">Description</button>
               <button>Information</button>
@@ -118,6 +119,7 @@ const ShopDetail = () => {
               </p>
             </div>
           </div>
+        </div>
           <FeaturedProductText title="you may also like" />
         </div>
       </div>
