@@ -70,8 +70,8 @@ const Checkout = () => {
             </div>
           </div>
 
+          <h3>PAYMENT</h3>
           <div className="payment">
-            <h3>PAYMENT</h3>
             <div className="payment-methods">
               <label><input type="radio" name="payment" /> Paypal</label>
               <label><input type="radio" name="payment" /> Direct Check</label>
