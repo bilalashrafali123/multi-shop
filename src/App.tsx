@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 
+
 const App = () => (
   <>
     <Routes>
@@ -20,6 +21,6 @@ const App = () => (
       <Route path="/checkout" element={<Checkout />} />
     </Routes>
   </>
-);
+)
 
 export default App;
