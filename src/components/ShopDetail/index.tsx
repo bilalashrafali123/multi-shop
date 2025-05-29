@@ -14,8 +14,8 @@ const ShopDetail = () => {
       <Header />
       <Navbar />
       <Banner title="ShopDetail" />
-      <div className="product-details-wrapper">
         <div className="container">
+      <div className="product-details-wrapper">
           <div className="product-details-inner">
             <div className="product-image">
               <img
