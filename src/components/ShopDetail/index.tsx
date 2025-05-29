@@ -17,7 +17,7 @@ const ShopDetail = () => {
       <Banner title="ShopDetail" />
       <div className="product-details-wrapper">
           <div className="product-details-inner">
-            <div className="product-image">
+            <div className="product-image ">
               <img
                 src="/src/product-1.jpg"
                 alt="Product"
