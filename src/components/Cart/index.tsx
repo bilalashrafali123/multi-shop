@@ -28,7 +28,7 @@ const Cart = () => {
               <tr>
                 <td className="product">
                   <img src="/src/product-1.jpg" alt="product" />
-                  <span>Product Name</span>
+                  <span>Camera</span>
                 </td>
                 <td>$150</td>
                 <td className="quantity">
@@ -44,7 +44,7 @@ const Cart = () => {
               <tr>
                 <td className="product">
                   <img src="/src/product-2.jpg" alt="product" />
-                  <span>Product Name</span>
+                  <span>T-shirt</span>
                 </td>
                 <td>$150</td>
                 <td className="quantity">
@@ -60,7 +60,7 @@ const Cart = () => {
               <tr>
                 <td className="product">
                   <img src="/src/product-3.jpg" alt="product" />
-                  <span>Product Name</span>
+                  <span>Lamp</span>
                 </td>
                 <td>$150</td>
                 <td className="quantity">
@@ -76,7 +76,7 @@ const Cart = () => {
               <tr>
                 <td className="product">
                   <img src="/src/product-4.jpg" alt="product" />
-                  <span>Product Name</span>
+                  <span>Shoes</span>
                 </td>
                 <td>$150</td>
                 <td className="quantity">
@@ -92,7 +92,7 @@ const Cart = () => {
               <tr>
                 <td className="product">
                   <img src="/src/product-4.jpg" alt="product" />
-                  <span>Product Name</span>
+                  <span>Sports shoes</span>
                 </td>
                 <td>$150</td>
                 <td className="quantity">
