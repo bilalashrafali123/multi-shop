@@ -11,7 +11,7 @@ const Login = () => {
       <UpperHeader />
       <Header />
       <Navbar />
-      <Banner title="login" />
+      <Banner title="Login" />
       <div className="login-wrapper">
         <div className="login-box">
           <h2>Login</h2>

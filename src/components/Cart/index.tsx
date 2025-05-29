@@ -11,7 +11,7 @@ const Cart = () => {
       <UpperHeader />
       <Header />
       <Navbar />
-      <Banner title="cart" />
+      <Banner title="Cart" />
       <div className="container cart-page">
         <div className="cart-wrapper">
           <table className="cart-table">

@@ -11,7 +11,7 @@ const Contact = () => {
       <UpperHeader />
       <Header />
       <Navbar />
-      <Banner title="contact" />
+      <Banner title="Contact" />
       <div className="contact container">
         <div className="contact__left">
           <h2>Contact Us</h2>
@@ -37,13 +37,13 @@ const Contact = () => {
           </div>
           <div className="contact__info">
             <p>
-              <span>📍</span> 123 Street, New York, USA
+              <span><i className="fa-solid fa-map-pin"></i></span> 123 Street, New York, USA
             </p>
             <p>
-              <span>📧</span> info@example.com
+              <span><i className="fa-solid fa-envelope"></i></span> info@example.com
             </p>
             <p>
-              <span>📞</span> +012 345 67890
+              <span><i className="fa-solid fa-phone"></i></span> +012 345 67890
             </p>
           </div>
         </div>

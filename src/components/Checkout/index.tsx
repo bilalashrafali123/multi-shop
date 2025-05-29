@@ -12,7 +12,7 @@ const Checkout = () => {
     <UpperHeader />
        <Header />
        <Navbar />
-       <Banner title="checkout" />
+       <Banner title="Checkout" />
     <div className="checkout-page">
       <div className="container checkout-wrapper">
       <div className="checkout-left">

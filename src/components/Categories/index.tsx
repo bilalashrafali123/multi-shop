@@ -15,7 +15,7 @@ const Categories = () => {
         <div className="category-card">
           <img src="/src/cat-2.jpg" alt="Category" className="category-image" />
           <div className="category-info">
-            <h4>Category Name</h4>
+          <h4>Category Name</h4>
             <span>100 Products</span>
           </div>
         </div>
